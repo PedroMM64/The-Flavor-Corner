@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserve Now | The Flavor Corner</title>
+
+    <link rel="shortcut icon" href="../img/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/nav-footer.css">
+    <link rel="stylesheet" href="../css/reserve.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&amp;family=Poller+One&amp;display=swap">
+</head>
+
+<body>
+    <header class="header-block">
+        <a href="#" class="logo"><img src="../img/Logo.png" alt="Logo The Flavor Corner"></a>
+
+        <div class="nav-container">
+            <nav class="navbar">
+                <a href="../../index.html">Home</a>
+                <a href="../pages/about_us.html">About Us</a>
+                <a href="#" class="reserve-button">Reserve now</a>
+            </nav>
+
+            <div class="menu-icon" id="menu-icon">
+                <i class='bx bx-menu'></i>
+            </div>
+
+            <div class="mobile-nav" id="mobile-nav">
+                <a href="../../index.html">Home</a>
+                <a href="../pages/about_us.html">About Us</a>
+                <a href="#" class="reserve-button">Reserve now</a>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="reserve">
+        <h2>Reserve Now</h2>
+        <div class="reserve-container">
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Name:</label>
+                    <input type="text" name="nombre" required placeholder="Your name">
+                </div>
+
+                <div class="form-group">
+                    <label for="telefono">Phone:</label>
+                    <input type="tel" name="telefono" required placeholder="Your phone">
+                </div>
+
+                <div class="form-group">
+                    <label for="tamaño">Table size:</label>
+                    <select name="tamaño" required>
+                        <option value="">Select a Table size:</option>
+                        <option value="1">1 person</option>
+                        <option value="2">2 person</option>
+                        <option value="3">3 person</option>
+                        <option value="4">4 person</option>
+                        <option value="5">5 person</option>
+                        <option value="6">6 person</option>
+                        <option value="7">7 person</option>
+                        <option value="8">8 person</option>
+                        <option value="9">9 person</option>
+                        <option value="10">10 person</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="fecha">Date:</label>
+                    <input type="date" name="fecha" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="hora">Hour:</label>
+                    <select name="hora" required>
+                        <option value="">Select a option:</option>
+                        <option value="9:00">9:00</option>
+                        <option value="9:30">9:30</option>
+                        <option value="10:00">10:00</option>
+                        <option value="10:30">10:30</option>
+                        <option value="11:00">11:00</option>
+                        <option value="11:30">11:30</option>
+                        <option value="12:00">12:00</option>
+                        <option value="12:30">12:30</option>
+                        <option value="13:00">13:00</option>
+                        <option value="13:30">13:30</option>
+                        <option value="14:00">14:00</option>
+                        <option value="14:30">14:30</option>
+                        <option value="15:00">15:00</option>
+                        <option value="15:30">15:30</option>
+                        <option value="16:00">16:00</option>
+                        <option value="16:30">16:30</option>
+                        <option value="17:00">17:00</option>
+                        <option value="17:30">17:30</option>
+                        <option value="18:00">18:00</option>
+                        <option value="18:30">18:30</option>
+                        <option value="19:00">19:00</option>
+                        <option value="19:30">19:30</option>
+                        <option value="20:00">20:00</option>
+                        <option value="20:30">20:30</option>
+                        <option value="20:30">21:00</option>
+                        <option value="20:30">21:30</option>
+                        <option value="20:30">22:00</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn-submit">Send</button>
+            </form>
+            <img src="../img/tomarorden.png" alt="Imagen amigable">
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="info">
+            <h3>The Flavor Corner restaurant</h3>
+            <p>At our restaurant, we offer a wide range of à la carte products to delight our diners. From a delicious
+                hamburger to the most exquisite cuts of meat for the most demanding palates, seafood and desserts are
+                also available for your enjoyment. <br><br>
+
+                In terms of beverages, we have the best options for a refreshing drink.</p>
+        </div>
+        <div class="address">
+            <h3>Address</h3>
+            <p>Via Jose Maria Morelos <br>
+                Santa Clara Coatitla <br>
+                Ecatepec de Morelos, Mexico. <br>
+                Movil: (+52) 55 12345678</p>
+        </div>
+        <div class="more">
+            <h3>More information</h3>
+            <a href="../../index.html">Home</a>
+            <a href="../pages/about_us.html">About us</a>
+            <a href="#">Reserve now</a>
+        </div>
+        <div class="social">
+            <h3>Social Networks</h3>
+            <div class="social-container">
+                <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook-circle'
+                        style='color:#3B5998'></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class='bx bxl-instagram-alt' id="insta"></i></a>
+                <a href="https://www.tiktok.com" target="_blank"><i class='bx bxl-tiktok' id="tiktok"></i></a>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-creds">
+        <p>©2023 · All rights reserved</p>
+        <p>Development by English class</p>
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

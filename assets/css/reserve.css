@@ -1,0 +1,89 @@
+.reserve{
+    margin-bottom: 2rem;
+}
+.reserve h2{
+    margin: 2rem 0 2rem 4rem;
+    font-size: 30px;
+    text-align: center;
+    width: 220px;
+    border-bottom: 5px solid #FF8C00;
+}
+.reserve-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15%;
+}
+.reserve-container img{
+    border-radius: 16px;
+    width: 250px;
+    height: auto;
+}
+.reserve-container form .form-group{
+    display: flex;
+    flex-direction: column;
+}
+.reserve-container form .form-group label{
+    font-weight: bold;
+    margin: .6rem 0;
+}
+.reserve-container form .form-group input[type="text"], input[type="tel"], select, input[type="date"] {
+    padding: 13px 20px;
+    border: 2px solid #6FD98C;
+    border-radius: 12px;
+    font-size: 16px;
+    box-sizing: border-box;
+    width: 250%;
+    min-width: 250%;
+}
+.reserve-container form .btn-submit{
+    font-size: 1rem;
+    padding: 7px 13px;
+    background: #FF8C00;
+    border: 2px solid #6FD98C;
+    border-radius: 15px;
+    margin-top: 2.4rem;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 1145px){
+    .reserve-container{
+        padding: 0 6%;
+    }
+}
+@media (max-width: 897px){
+    form{
+        margin-left: -20rem;
+    }
+    .reserve-container{
+        justify-content: center;
+        align-items: center;
+    }
+    .reserve-container img{
+        display: none;
+    }
+}
+@media (max-width: 768px){
+    form{
+        width: 40%;
+    }
+    .reserve-container{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 630px){
+    form{
+        width: 30%;
+        margin-left: -10rem;
+    }
+    
+}
+@media (max-width: 360px){
+    form{
+        margin-left: -8rem;
+    }
+    
+}
